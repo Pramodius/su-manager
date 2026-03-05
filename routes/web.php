@@ -5,6 +5,10 @@ use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\ProfileController;
 
 Route::get('/', function () {
+    phpinfo();
+});
+
+Route::get('/', function () {
     return redirect()->route('dashboard');
 });
 
